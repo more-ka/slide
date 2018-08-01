@@ -1,0 +1,36 @@
+.images{
+    display: flex;align-items: flex-start;
+    /*避免图片浮动定位造成变形*/
+    transition: all 0.5s;}
+.images > img{vertical-align: top;text-align: center;}
+.buttons{
+    margin-top: 50px;
+    text-align: center;
+    height: 900px;
+    margin:0 auto;
+}
+
+.buttons >input{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-color: transparent;
+        border-style:solid;
+        border-width:2px;
+        box-sizing: content-box;/* CSS3可以设置边框是向内还是向外， 如果要设置为内边框使用
+        box-sizing: border-box;
+        外边框
+        box-sizing: content-box;*/
+    }
+body{
+    background: white;
+    margin: auto auto;
+    text-align: center;
+}
+.images{
+    margin-top: 20px;
+    
+}
+.red{
+    border-color: yellowgreen !important;/* !important(重要的)提升颜色优先级,覆盖默认颜色  */
+color:red;}
